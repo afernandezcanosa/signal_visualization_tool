@@ -4,10 +4,22 @@ This is a signal visualization tool created with [dash](https://github.com/plotl
 
 This tool is aimed to provide quick data visualization tools for signals gathered from sensors (they can be sensors mounted in aircraft, ground vehicles, electric installations, buildings, etc). It also provides the most important features such us moving average filtering of signals, time filtering, and statistics of the signals.
 
+## Prerequisites
+
+Libraries required to run the data visualizator tool are contained in ``requirements.txt`` file. To install all the libraries just open the terminal and write.
+
+``pip install -r requirements.txt``
+
+If you don't have pip installed in your machine, follow [this link](https://pip.pypa.io/en/stable/installing/).
+
+## Run the program
+
 To run the program and start the server:
 
 * Run in the terminal ```python signal_visualization_tool_dash.py``` and the program will start to get and post requests to interact into a local address.
 * Copy the url of the local address into your browser. For example: http://000.0.0.1:0000/.
+
+## Notes on the interaction 
 
 Once run, to interact with the program:
 
@@ -19,3 +31,9 @@ Once run, to interact with the program:
 6. After that, you can export your figures with the build-in function of [dash](https://github.com/plotly/dash).
 
 Thank you to [Chris Parmer](https://github.com/chriddyp) and his awesome team for such an incredible library to create data visualization interactive dashboards!
+
+## Authors
+
+* Alejandro Fernandez Canosa - *Initial work* - https://github.com/afernandezcanosa
+
+See also the list of [contributors](https://github.com/afernandezcanosa/signal_visualization_tool/graphs/contributors) who made commits.
